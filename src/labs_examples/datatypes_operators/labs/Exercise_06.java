@@ -12,7 +12,10 @@ public class Exercise_06 {
 
     public static void main(String[] args) {
 
-        // write code here
+        double r = 3.14;
+        int h = 5;
 
+        double a = 2*3.14*r*(r+h);
+        System.out.println(a);
     }
 }

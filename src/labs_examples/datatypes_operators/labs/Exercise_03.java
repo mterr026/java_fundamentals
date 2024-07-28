@@ -9,8 +9,12 @@ package labs_examples.datatypes_operators.labs;
 class ArithmeticOperators {
 
     public static void main(String[] args) {
-
-        // write your code below
+        int c = 3 - 2;
+        System.out.println("Addition: " + 1 + 2);
+        System.out.println("Multiplication: " + 1 * 2);
+        System.out.println("Subtraction: " + c);
+        System.out.println("Modulus: " + 17 % 3);
+        System.out.println("Division: " + 12 / 3);
 
     }
 

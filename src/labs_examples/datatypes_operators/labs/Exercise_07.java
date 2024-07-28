@@ -23,7 +23,7 @@ public class Exercise_07 {
         // assign input to variable as int
         int days = scanner.nextInt();
 
-        // write completed code here
-
+        float seconds = ((days * 24f) * 60f) * 60f;
+        System.out.print(seconds);
     }
 }

@@ -12,8 +12,13 @@ public class Exercise_04 {
 
     public static void main(String[] args) {
 
-        int i = 1;
-        System.out.println("int i is: " + i);
+        int x = 17;
+        int y = 3;
+        String result = x > y ? "x" : "y";
+        
+
+        int w = x % 3;
+        System.out.println(w);
 
         // write your code below
 

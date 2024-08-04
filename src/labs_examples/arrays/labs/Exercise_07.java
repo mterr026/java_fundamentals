@@ -1,5 +1,5 @@
 package labs_examples.arrays.labs;
-
+import java.util.ArrayList;
 /**
  *  ArrayLists
  *
@@ -10,4 +10,9 @@ package labs_examples.arrays.labs;
  *
  */
 public class Exercise_07 {
+    public static void main() {
+        ArrayList<Integer> arr = new ArrayList<Integer>();
+        arr.add(9);
+        System.out.println(arr.get(0));
+    }
 }

@@ -19,6 +19,32 @@ class LogicalOperators {
 
         // write your code below
 
+        //AND
+        boolean c = true;
+        boolean d = true;
+        if (c & d) {
+            System.out.println("c and d are true");
+        }
+
+        //Short circuit AND
+        if (b && c) {
+            System.out.println("b is false therefore, c is not evaluated");
+        }
+
+        //Short-circuit OR
+        if (c || d) {
+            System.out.println("c is true, therefore the statement is true and d is not evaluated");
+        }
+
+        //XOR
+        if (c ^ d) {
+            System.out.println("c and d are true, therefore the statementis false");
+        }
+
+        if (!b) {
+            System.out.println("b is false");
+        }
+
     }
 
 }

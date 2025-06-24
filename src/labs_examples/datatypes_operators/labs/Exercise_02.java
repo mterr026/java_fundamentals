@@ -24,6 +24,16 @@ public class Exercise_02 {
     public static void main(String[] args) {
 
         // write code here
+        //Widening
+        int number = 10;
+        double doubleNumber = number;
+
+        System.out.println("int to double: " + doubleNumber);
+
+        //Narrowing
+        double secondDouble = 10.5;
+        int secondNumber = (int)secondDouble;
+        System.out.println("Double to int: " + secondNumber);
 
     }
 }

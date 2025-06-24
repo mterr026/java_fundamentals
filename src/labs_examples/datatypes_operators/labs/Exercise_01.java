@@ -17,7 +17,15 @@ public class Exercise_01 {
     public static void main(String[] args) {
 
         // write code here
+        int typeInt = 128;
+        double typeDouble = 1.23442344;
+        float typeFloat = 1.01f;
+        char typeChar = 'g';
 
+        System.out.println("Int: " + typeInt);
+        System.out.println("Double: " + typeDouble);
+        System.out.println("Float: " + typeFloat);
+        System.out.println("Char: " + typeChar);
     }
 }
 

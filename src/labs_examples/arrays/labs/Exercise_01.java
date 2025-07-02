@@ -1,6 +1,9 @@
 package labs_examples.arrays.labs;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Arrays;
+import java.util.Scanner;
 
 /**
  * Arrays calculator
@@ -13,5 +16,18 @@ import java.util.Arrays;
  */
 
 public class Exercise_01 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int[] nums = new int[10];
+        int sum = 0;
+        double avg = 0;
 
+        for (int i = 0; i <= 9; i++) {
+            nums[i] = scanner.nextInt();
+            sum += nums[i];
+        }
+        System.out.println(sum);
+        System.out.println((avg + (double)sum) / 10.0);
+
+    }
 }

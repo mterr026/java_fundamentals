@@ -8,4 +8,18 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_10 {
+    public static void main(String[] args) {
+        int number = 0;
+
+        while(number < 5) {
+
+            number++;
+            if (number == 3) {
+                continue;
+            }
+            System.out.println(number);
+
+
+        }
+    }
 }
